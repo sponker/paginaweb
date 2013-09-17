@@ -1,0 +1,52 @@
+body
+{
+margin: 0px;
+}
+
+
+#logotipo
+{
+background-image: url(../img/logo.png);
+width: 335px;
+height: 90px;
+float: left;
+margin-left: 244px;
+margin-top: 9px;
+}
+
+#botones li
+{
+display: inline;
+
+}
+
+#botones li a {
+font-family: Arial;
+font-size:19px; 
+text-decoration: none; 
+padding: 9px; 
+color: #727272;
+float: right;
+}
+
+
+#header
+{
+background-color: rgb(238, 238, 238);
+position: relative;
+height: 114px;
+}
+
+#menu
+{
+padding-top: 62px;
+padding-right: 278px;
+}
+
+#linea
+{
+margin: 0px;
+height: 2px;
+background-color: rgb(173, 173, 173);
+
+}
