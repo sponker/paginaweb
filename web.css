@@ -1,6 +1,7 @@
 body
 {
 margin: 0px;
+
 }
 
 
@@ -10,7 +11,7 @@ background-image: url(../img/logo.png);
 width: 335px;
 height: 90px;
 float: left;
-margin-left: 244px;
+margin-left: 20%;
 margin-top: 9px;
 }
 
@@ -22,7 +23,7 @@ display: inline;
 
 #botones li a {
 font-family: Arial;
-font-size:19px; 
+font-size:18px; 
 text-decoration: none; 
 padding: 9px; 
 color: #727272;
@@ -40,7 +41,7 @@ height: 114px;
 #menu
 {
 padding-top: 62px;
-padding-right: 278px;
+padding-right: 20%;
 }
 
 #linea
@@ -48,5 +49,119 @@ padding-right: 278px;
 margin: 0px;
 height: 2px;
 background-color: rgb(173, 173, 173);
+
+}
+
+#galeria
+{
+padding-top: 30px;
+
+}
+
+#content
+{
+background-color: rgb(238, 238, 238);
+width: 1080px;
+padding: 0px;
+margin: auto;
+height: 900px;
+}
+
+#cajas
+{
+width: 900px;
+height: auto;
+margin-left: 90px;
+margin-top: 30px;
+}
+
+#caja1
+{
+width: 280px;
+height: 360px;
+background-color: white;
+float: left;
+-webkit-box-shadow: 5px 5px 20px 5px rgba(216, 216, 216, 216);
+box-shadow: 5px 5px 20px 5px rgba(216, 216, 216, 216);
+}
+
+#caja2
+{
+margin-left: 30px;
+width: 280px;
+height: 360px;
+background-color: white;
+float: left;
+-webkit-box-shadow: 5px 5px 20px 5px rgba(216, 216, 216, 216);
+box-shadow: 5px 5px 20px 5px rgba(216, 216, 216, 216);
+}
+
+#caja3
+{
+margin-left: 30px;	
+width: 280px;
+height: 360px;
+background-color: white;
+float: left;
+-webkit-box-shadow: 5px 5px 20px 5px rgba(216, 216, 216, 216);
+box-shadow: 5px 5px 20px 5px rgba(216, 216, 216, 216);
+}
+
+#caja4
+{
+margin-top: 30px;
+width: 280px;
+height: 360px;
+background-color: white;
+float: left;
+-webkit-box-shadow: 5px 5px 20px 5px rgba(216, 216, 216, 216);
+box-shadow: 5px 5px 20px 5px rgba(216, 216, 216, 216);
+}
+
+#caja5
+{
+margin-top: 30px;	
+margin-left: 30px;	
+width: 280px;
+height: 360px;
+background-color: white;
+float: left;
+-webkit-box-shadow: 5px 5px 20px 5px rgba(216, 216, 216, 216);
+box-shadow: 5px 5px 20px 5px rgba(216, 216, 216, 216);
+}
+
+#caja6
+{
+margin-top: 30px;
+margin-left: 30px;	
+width: 280px;
+height: 360px;
+background-color: white;
+float: left;
+-webkit-box-shadow: 5px 5px 20px 5px rgba(216, 216, 216, 216);
+box-shadow: 5px 5px 20px 5px rgba(216, 216, 216, 216);
+}
+
+
+.titulos
+{
+font-size: 22px;
+color: rgb(153, 153, 153);
+font-family: Bebas;
+}
+
+.subtitulos
+{
+color: rgb(153, 153, 153);
+font-family: Myriad Pro;
+font-size: 19px;
+}
+
+.informacion
+{
+text-overflow:ellipsis;
+color: rgb(153, 153, 153);
+font-family: HelvetinaNeue-Light;
+font-size: 14px;
 
 }
